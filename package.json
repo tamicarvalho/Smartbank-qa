@@ -1,0 +1,14 @@
+{
+  "name": "smartbank-qa-test",
+  "version": "1.0.0",
+  "description": "Aplicação para desafio de teste de api SmartBank",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chai": "^4.2.0",
+    "mocha-logger": "^1.0.6",
+    "should": "^13.2.3"
+  }
+}
