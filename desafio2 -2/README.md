@@ -1,5 +1,5 @@
 # Desafio Smartbank #2
-## Pré-Requisitos
+## Pré requisitos
 
 ```
 1. Instalar Appium (http://appium.io/downloads.html)
@@ -7,7 +7,10 @@
 3. Instalar Visual Studio Code (https://code.visualstudio.com/download)
 ```
 
-## Run tests
+## Instruções
+
+Teste para ver a fonta dessa porra
+
 ### Run all tests
 
 ```
