@@ -2,7 +2,7 @@
 ## Setup
 
 ```
-pip install -r requirements.txt
+Desafio Smartbank #2
 ```
 
 ## Run tests
