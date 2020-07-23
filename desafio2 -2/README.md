@@ -20,4 +20,4 @@ tools, platform-tools (essas váriaveis vão estar dentro do diretório da pasta
 
 ## Observações
 
-No meu caso ao criar um AVD maneger no Android Studio foi necessário baixar o emulador 8.0 do android que é a ultima verso da PK. 
+No meu caso ao criar um AVD maneger no Android Studio foi necessário baixar o emulador 8.0 do android que é a ultima verso da APK. 
