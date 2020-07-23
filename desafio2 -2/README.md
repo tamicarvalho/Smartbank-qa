@@ -1,50 +1,23 @@
 # Desafio Smartbank #2
 ## Pré requisitos
 
-```
+
 1. Instalar Appium (http://appium.io/downloads.html)
 2. Instalar Adnroid Studio (https://developer.android.com/studio?hl=pt-br)
 3. Instalar Visual Studio Code (https://code.visualstudio.com/download)
-```
+
 
 ## Instruções
 
-Teste para ver a fonta dessa porra
+1. Configurar as váriaveis de ambiente: propriedades do sistema > path na váriaveis de ambientes > novo > indicar diretório das váriaveis build-tools
+tools, platform-tools (essas váriaveis vão estar dentro do diretório da pasta SDK)
+2. Baixar servidor do Appium através do comando: pip install Appium-Python-Client, no terminal
+3. Após abrir o Appium configurar o diretório de váriaveis 
+4. Startar servidor do Appium e iniciar a sesso do inspector
+5. Informar as váriaveis do Desired Capability (preencher com o Json das váriaveis)
+6. Ao abrir o Android Studio selecionar a opção Tools > AVD Maneger
+7. Executar no terminal o comando py.test + (nome do arquivo).py
 
-### Run all tests
+## Observações
 
-```
-py.test test
-```
-
-To run them on Sauce Labs, make sure that you have the following environment
-variables set:
-```
-SAUCE_LABS
-SAUCE_USERNAME
-SAUCE_ACCESS_KEY
-```
-
-### Run an arbitrary file
-
-```
-py.test test/test_ios_selectors.py
-```
-
-## TestCase
-### unittest based
-- test/test_android_create_session.py
-- test/test_ios_create_session.py
-
-### pytest based
-- Rest of the above
-
-# Tutorial
-
-## Portuguese
-
-The brazilian testing community has a complete and free tutorial teaching from 0 to advanced how to use Appium with Python to do software automation.
-
-If you can read Portuguese from Brazil, see the tutorial below:
-
-[Automação de teste de software com Appium e Python - Por Maria Clara Bezerra (Github)](https://github.com/clarabez/appium)
+No meu caso ao criar um AVD maneger no Android Studio foi necessário baixar o emulador 8.0 do android que é a ultima verso da PK. 
