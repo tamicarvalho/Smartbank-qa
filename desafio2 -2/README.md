@@ -5,6 +5,7 @@
 1. Instalar Appium (http://appium.io/downloads.html)
 2. Instalar Adnroid Studio (https://developer.android.com/studio?hl=pt-br)
 3. Instalar Visual Studio Code (https://code.visualstudio.com/download)
+4. Alterar o caminho do apk no arquivo helpers.py
 
 
 ## Instruções
