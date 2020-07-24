@@ -65,9 +65,11 @@ class TestAndroidBasicInteractions():
 
     def test_login_invalido(self, driver):
         driver.start_activity(self.PACKAGE, self.MAIN_ACTIVITY)
+        print('Cenário 2 - Login Inválido')
         botao_registro = driver.find_element_by_id("com.example.vamsi.login:id/tvRegister")
         botao_registro.click() 
-        campo_name = driver.find_element_by_id("com.example.vamsi.login:id/etRegName")      
+        campo_name = driver.find_element_by_id("com.example.vamsi.login:id/etRegName") 
+        print('Dado que eu insiro os dados de um usuário inexistente')
         campo_name.send_keys('Sophia')
         campo_phone = driver.find_element_by_id("com.example.vamsi.login:id/etRegPhone")      
         campo_phone.send_keys('988448966')
@@ -75,7 +77,8 @@ class TestAndroidBasicInteractions():
         campo_gmail.send_keys('ssantos@gmail.com')
         campo_password = driver.find_element_by_id("com.example.vamsi.login:id/etRegPassword")      
         campo_password.send_keys('123456')
-        botao_register = driver.find_element_by_id("com.example.vamsi.login:id/btnRegLogin")      
+        botao_register = driver.find_element_by_id("com.example.vamsi.login:id/btnRegLogin")
+        print('Então usuário não deve ser logado apresentando mensagem de erro')
         botao_register.click()
         botao_login_register = driver.find_element_by_id("com.example.vamsi.login:id/btnGotoLogin")      
         botao_login_register.click()
